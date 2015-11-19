@@ -14,6 +14,23 @@
 		795C33881BFBF9A700A80011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795C33861BFBF9A700A80011 /* LaunchScreen.storyboard */; };
 		795C33931BFBF9A700A80011 /* Today2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33921BFBF9A700A80011 /* Today2Tests.swift */; };
 		795C339E1BFBF9A700A80011 /* Today2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C339D1BFBF9A700A80011 /* Today2UITests.swift */; };
+		795C33C91BFBFB0800A80011 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33BF1BFBFB0800A80011 /* WriteViewController.swift */; };
+		795C33CA1BFBFB0800A80011 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33C01BFBFB0800A80011 /* WriteView.swift */; };
+		795C33CB1BFBFB0800A80011 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33C11BFBFB0800A80011 /* ReadViewController.swift */; };
+		795C33CC1BFBFB0800A80011 /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33C21BFBFB0800A80011 /* ReadView.swift */; };
+		795C33CD1BFBFB0800A80011 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33C31BFBFB0800A80011 /* FaceView.swift */; };
+		795C33CE1BFBFB0800A80011 /* DiaryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33C41BFBFB0800A80011 /* DiaryEntry.swift */; };
+		795C33CF1BFBFB0800A80011 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33C51BFBFB0800A80011 /* CloudKitHelper.swift */; };
+		795C33D01BFBFB0800A80011 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33C61BFBFB0800A80011 /* LocationHelper.swift */; };
+		795C33D11BFBFB0800A80011 /* EventHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33C71BFBFB0800A80011 /* EventHelper.swift */; };
+		795C33D21BFBFB0800A80011 /* HealthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C33C81BFBFB0800A80011 /* HealthHelper.swift */; };
+		795C33DA1BFC03D700A80011 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795C33D91BFC03D700A80011 /* EventKit.framework */; };
+		795C33DC1BFC03E600A80011 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795C33DB1BFC03E600A80011 /* CloudKit.framework */; };
+		795C33DE1BFC03EE00A80011 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795C33DD1BFC03EE00A80011 /* HealthKit.framework */; };
+		795C33E01BFC041600A80011 /* Today2.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 795C33DF1BFC041600A80011 /* Today2.entitlements */; };
+		795C33E21BFC0AF200A80011 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795C33E11BFC0AF200A80011 /* WatchKit.framework */; };
+		795C33E41BFC0AF900A80011 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795C33E31BFC0AF900A80011 /* WatchConnectivity.framework */; };
+		795C33E61BFCD2B900A80011 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795C33E51BFCD2B900A80011 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +64,23 @@
 		795C33991BFBF9A700A80011 /* Today2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Today2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		795C339D1BFBF9A700A80011 /* Today2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today2UITests.swift; sourceTree = "<group>"; };
 		795C339F1BFBF9A700A80011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795C33BF1BFBFB0800A80011 /* WriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		795C33C01BFBFB0800A80011 /* WriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		795C33C11BFBFB0800A80011 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		795C33C21BFBFB0800A80011 /* ReadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadView.swift; sourceTree = "<group>"; };
+		795C33C31BFBFB0800A80011 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		795C33C41BFBFB0800A80011 /* DiaryEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryEntry.swift; sourceTree = "<group>"; };
+		795C33C51BFBFB0800A80011 /* CloudKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
+		795C33C61BFBFB0800A80011 /* LocationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		795C33C71BFBFB0800A80011 /* EventHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHelper.swift; sourceTree = "<group>"; };
+		795C33C81BFBFB0800A80011 /* HealthHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthHelper.swift; sourceTree = "<group>"; };
+		795C33D91BFC03D700A80011 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		795C33DB1BFC03E600A80011 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		795C33DD1BFC03EE00A80011 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		795C33DF1BFC041600A80011 /* Today2.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Today2.entitlements; sourceTree = "<group>"; };
+		795C33E11BFC0AF200A80011 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		795C33E31BFC0AF900A80011 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		795C33E51BFCD2B900A80011 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795C33E61BFCD2B900A80011 /* CoreLocation.framework in Frameworks */,
+				795C33E41BFC0AF900A80011 /* WatchConnectivity.framework in Frameworks */,
+				795C33E21BFC0AF200A80011 /* WatchKit.framework in Frameworks */,
+				795C33DE1BFC03EE00A80011 /* HealthKit.framework in Frameworks */,
+				795C33DC1BFC03E600A80011 /* CloudKit.framework in Frameworks */,
+				795C33DA1BFC03D700A80011 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +117,12 @@
 		795C33711BFBF9A700A80011 = {
 			isa = PBXGroup;
 			children = (
+				795C33E51BFCD2B900A80011 /* CoreLocation.framework */,
+				795C33E31BFC0AF900A80011 /* WatchConnectivity.framework */,
+				795C33E11BFC0AF200A80011 /* WatchKit.framework */,
+				795C33DD1BFC03EE00A80011 /* HealthKit.framework */,
+				795C33DB1BFC03E600A80011 /* CloudKit.framework */,
+				795C33D91BFC03D700A80011 /* EventKit.framework */,
 				795C337C1BFBF9A700A80011 /* Today2 */,
 				795C33911BFBF9A700A80011 /* Today2Tests */,
 				795C339C1BFBF9A700A80011 /* Today2UITests */,
@@ -97,8 +143,19 @@
 		795C337C1BFBF9A700A80011 /* Today2 */ = {
 			isa = PBXGroup;
 			children = (
+				795C33DF1BFC041600A80011 /* Today2.entitlements */,
 				795C337D1BFBF9A700A80011 /* AppDelegate.swift */,
 				795C337F1BFBF9A700A80011 /* ViewController.swift */,
+				795C33BF1BFBFB0800A80011 /* WriteViewController.swift */,
+				795C33C01BFBFB0800A80011 /* WriteView.swift */,
+				795C33C11BFBFB0800A80011 /* ReadViewController.swift */,
+				795C33C21BFBFB0800A80011 /* ReadView.swift */,
+				795C33C31BFBFB0800A80011 /* FaceView.swift */,
+				795C33C41BFBFB0800A80011 /* DiaryEntry.swift */,
+				795C33C51BFBFB0800A80011 /* CloudKitHelper.swift */,
+				795C33C61BFBFB0800A80011 /* LocationHelper.swift */,
+				795C33C71BFBFB0800A80011 /* EventHelper.swift */,
+				795C33C81BFBFB0800A80011 /* HealthHelper.swift */,
 				795C33811BFBF9A700A80011 /* Main.storyboard */,
 				795C33841BFBF9A700A80011 /* Assets.xcassets */,
 				795C33861BFBF9A700A80011 /* LaunchScreen.storyboard */,
@@ -193,6 +250,12 @@
 				TargetAttributes = {
 					795C33791BFBF9A700A80011 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = REP3NA5A5C;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					795C338D1BFBF9A700A80011 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -230,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				795C33881BFBF9A700A80011 /* LaunchScreen.storyboard in Resources */,
+				795C33E01BFC041600A80011 /* Today2.entitlements in Resources */,
 				795C33851BFBF9A700A80011 /* Assets.xcassets in Resources */,
 				795C33831BFBF9A700A80011 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +320,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795C33CA1BFBFB0800A80011 /* WriteView.swift in Sources */,
+				795C33C91BFBFB0800A80011 /* WriteViewController.swift in Sources */,
+				795C33CD1BFBFB0800A80011 /* FaceView.swift in Sources */,
 				795C33801BFBF9A700A80011 /* ViewController.swift in Sources */,
+				795C33D01BFBFB0800A80011 /* LocationHelper.swift in Sources */,
 				795C337E1BFBF9A700A80011 /* AppDelegate.swift in Sources */,
+				795C33D11BFBFB0800A80011 /* EventHelper.swift in Sources */,
+				795C33D21BFBFB0800A80011 /* HealthHelper.swift in Sources */,
+				795C33CC1BFBFB0800A80011 /* ReadView.swift in Sources */,
+				795C33CE1BFBFB0800A80011 /* DiaryEntry.swift in Sources */,
+				795C33CB1BFBFB0800A80011 /* ReadViewController.swift in Sources */,
+				795C33CF1BFBFB0800A80011 /* CloudKitHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +473,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Today2/Today2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Today2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geeherman.Today2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +494,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Today2/Today2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Today2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geeherman.Today2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
