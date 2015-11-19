@@ -19,15 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        //        if #available(iOS 9.0, *) {
         if WCSession.isSupported() {
             let session = WCSession.defaultSession()
             session.delegate = self
             session.activateSession()
         }
-        //        } else {
-        //            // Fallback on earlier versions
-        //        }
         
         return true
     }

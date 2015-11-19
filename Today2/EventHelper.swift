@@ -26,8 +26,8 @@ class EventHelper : NSObject {
         let eventStore = EKEventStore()
         let predicate = eventStore.predicateForEventsWithStartDate(theDate, endDate: theDate, calendars: nil)
         var theEvents = ""
-        if let events = eventStore.eventsMatchingPredicate(predicate) as? [EKEvent] {
-            for event in events as [EKEvent] {
+        if let events : [EKEvent] = eventStore.eventsMatchingPredicate(predicate) {
+            for event in events {
                 theEvents += "\(event.title)\n"
             }
         }

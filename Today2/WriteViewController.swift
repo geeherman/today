@@ -41,7 +41,6 @@ class WriteViewController: UIViewController, UITextViewDelegate, UIImagePickerCo
         let eventsHelper = EventHelper()
         writeView.eventsLabel.text = eventsHelper.getEvents(NSDate())
         healthHelper.getHealth(NSDate())
-//        writeView.blurbView.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
